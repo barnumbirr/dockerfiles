@@ -30,8 +30,10 @@ RUN \
 
 RUN \
   chown -R www-data:www-data /var/www && \
-  rm /etc/lighttpd/lighttpd.conf && \
-  wget https://gist.githubusercontent.com/c0ding/cca56108e103638a21cd/raw/9fd4b9f35b30bc8492dbe0c0341df8efa4a198c1/lighttpd.conf -O /etc/lighttpd/lighttpd.conf
+  rm /etc/lighttpd/lighttpd.conf
+
+ADD \
+  lighttpd.conf /etc/lighttpd/lighttpd.conf
 
 EXPOSE 80
 
