@@ -6,6 +6,7 @@ This is a collection of **Dockerfiles** I use:
   * [Dokuwiki](https://www.dokuwiki.org/dokuwiki)
   * [flaskbb](http://flaskbb.org/)
   * [miniflux](http://miniflux.net/)
+  * [Shaarli](http://sebsauvage.net/wiki/doku.php?id=php:shaarli)
 
 ## License
 
