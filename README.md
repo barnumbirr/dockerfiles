@@ -1,6 +1,11 @@
 <h1><img src="https://raw.github.com/c0ding/Dockerfiles/master/doc/docker.png" height=70 alt="Dockerfiles" title="Dockerfiles">Dockerfiles</h1>
 
-This is a collection of **Dockerfiles** I use.
+This is a collection of **Dockerfiles** I use:
+
+
+  * [Dokuwiki](https://www.dokuwiki.org/dokuwiki)
+  * [flaskbb](http://flaskbb.org/)
+  * [miniflux](http://miniflux.net/)
 
 ## License
 
