@@ -8,6 +8,7 @@ This is a collection of **Dockerfiles** I use:
   * [miniflux](http://miniflux.net/)
   * [Shaarli](http://sebsauvage.net/wiki/doku.php?id=php:shaarli)
   * [Shout](http://shout-irc.com/)
+  * [Subway](https://github.com/thedjpetersen/subway)
 
 ## License
 
