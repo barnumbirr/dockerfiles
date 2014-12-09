@@ -5,6 +5,7 @@ This is a collection of **Dockerfiles** I use:
 
   * [Dokuwiki](https://www.dokuwiki.org/dokuwiki)
   * [flaskbb](http://flaskbb.org/)
+  * [Hastebin Plus](https://github.com/MarvinMenzerath/HastebinPlus)
   * [miniflux](http://miniflux.net/)
   * [Shaarli](http://sebsauvage.net/wiki/doku.php?id=php:shaarli)
   * [Shout](http://shout-irc.com/)
