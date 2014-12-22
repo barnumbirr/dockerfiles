@@ -6,19 +6,13 @@ ENV DEBIAN_FRONTEND noninteractive
 RUN \
   apt-get update && \
   apt-get -y install \
-  build-essential \
-  curl \
+  nodejs \
+  nodejs-legacy \
+  npm \
   git
 
 RUN \
   git clone https://github.com/MarvinMenzerath/HastebinPlus.git /opt/haste
-
-RUN \
-  curl -sL https://deb.nodesource.com/setup | bash -
-
-RUN \
-  apt-get install -y \
-  nodejs
 
 WORKDIR \
   /opt/haste
@@ -26,5 +20,12 @@ WORKDIR \
 RUN \
   npm install
 
+RUN \
+  apt-get clean
+
+RUN \
+  rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
+
 EXPOSE 8080
+
 CMD ["npm", "start"]
