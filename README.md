@@ -6,6 +6,7 @@ This is a collection of **Dockerfiles** I use:
   * [Dokuwiki](https://www.dokuwiki.org/dokuwiki)
   * [flaskbb](http://flaskbb.org/)
   * [Hastebin Plus](https://github.com/MarvinMenzerath/HastebinPlus)
+  * [ircd-hybrid](http://www.ircd-hybrid.org/)
   * [miniflux](http://miniflux.net/)
   * [Pritunl](http://pritunl.com/)
   * [Shaarli](http://sebsauvage.net/wiki/doku.php?id=php:shaarli)
