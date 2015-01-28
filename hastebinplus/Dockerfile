@@ -26,6 +26,8 @@ RUN \
 RUN \
   rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
+VOLUME /opt/haste/data
+
 EXPOSE 8080
 
 CMD ["npm", "start"]
