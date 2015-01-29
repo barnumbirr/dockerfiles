@@ -2,6 +2,7 @@
 
 This is a collection of **Dockerfiles** I use:
 
+  * [Baikal](http://baikal-server.com/)
   * [Codiad](http://codiad.com/)
   * [Dokuwiki](https://www.dokuwiki.org/dokuwiki)
   * [flaskbb](http://flaskbb.org/)
@@ -17,7 +18,7 @@ This is a collection of **Dockerfiles** I use:
 
 ```
   Apache v2.0 License
-  Copyright 2014 Martin Simon
+  Copyright 2014-2015 Martin Simon
 
    Licensed under the Apache License, Version 2.0 (the "License");
    you may not use this file except in compliance with the License.
