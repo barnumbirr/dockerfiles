@@ -14,7 +14,9 @@ RUN \
     php5-cgi \
     php5-mcrypt\
     php5-gd \
+    php5-sqlite \
     php5 \
+    sqlite3 \
     wget
 
 RUN \
