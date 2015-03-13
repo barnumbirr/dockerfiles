@@ -11,7 +11,7 @@ docker build -t <yourname/imagename> .
 ## Run container from image :
 
 ```
-docker run -p 80:80 --name shout <yourname/imagename>
+docker run -p 8081:8081 --name shout <yourname/imagename> --port 8081
 ```
 
 Enjoy!

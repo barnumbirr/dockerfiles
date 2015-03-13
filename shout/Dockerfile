@@ -13,6 +13,6 @@ RUN \
 RUN \
   npm install -g shout
 
-EXPOSE 9000
+EXPOSE 8081
 
-CMD ["shout", "start", "--port 80", "-private"]
+ENTRYPOINT ["shout"]
