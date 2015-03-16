@@ -1,0 +1,27 @@
+FROM gliderlabs/alpine:3.1
+MAINTAINER Martin Simon <me@martinsimon.me>
+
+RUN \
+	apk-install \
+	nodejs \
+	git && \
+	npm -g install npm && \
+	npm cache clean
+
+RUN \
+	git clone https://github.com/MarvinMenzerath/HastebinPlus.git /opt/haste
+	
+RUN \
+	mkdir -p $HOME
+
+WORKDIR \
+	/opt/haste
+
+RUN \
+	npm install
+	
+VOLUME /opt/haste/data
+
+EXPOSE 8080
+
+CMD ["npm", "start"]
