@@ -10,6 +10,7 @@ This is a collection of **Dockerfiles** I use:
   * [ircd-hybrid](http://www.ircd-hybrid.org/)
   * [miniflux](http://miniflux.net/)
   * [Pritunl](http://pritunl.com/)
+  * [Python 2.7](https://www.python.org/downloads/release/python-279/)
   * [Shaarli](http://sebsauvage.net/wiki/doku.php?id=php:shaarli)
   * [Shout](http://shout-irc.com/)
   * [Subway](https://github.com/thedjpetersen/subway)
