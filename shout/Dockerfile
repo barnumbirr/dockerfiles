@@ -1,17 +1,14 @@
-FROM debian:jessie
+FROM alpine:3.1
 MAINTAINER Martin Simon <me@martinsimon.me>
 
-ENV DEBIAN_FRONTEND noninteractive
+RUN \
+   apk add --update \
+  nodejs
 
 RUN \
-  apt-get update && \
-  apt-get -y upgrade && \
-  apt-get -y install \
-    nodejs-legacy \
-    npm
+    npm install -g shout
 
-RUN \
-  npm install -g shout
+VOLUME /root/.shout
 
 EXPOSE 8081
 
