@@ -8,6 +8,7 @@ This is a collection of **Dockerfiles** I use:
   * [flaskbb](http://flaskbb.org/)
   * [Hastebin Plus](https://github.com/MarvinMenzerath/HastebinPlus)
   * [ircd-hybrid](http://www.ircd-hybrid.org/)
+  * [lynx](http://lynx.isc.org/)
   * [miniflux](http://miniflux.net/)
   * [Pritunl](http://pritunl.com/)
   * [Python 2.7](https://www.python.org/downloads/release/python-279/)
