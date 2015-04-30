@@ -1,12 +1,13 @@
-FROM gliderlabs/alpine:3.1
+FROM alpine:latest
 MAINTAINER Martin Simon <me@martinsimon.me>
 
 RUN \
-	apk-install \
-	nodejs \
-	git && \
-	npm -g install npm && \
-	npm cache clean
+	apk add --update \
+		nodejs \
+		git && \
+		npm -g install npm && \
+		npm cache clean && \
+		rm -rf /var/cache/apk/*
 
 RUN \
 	git clone https://github.com/MarvinMenzerath/HastebinPlus.git /opt/haste

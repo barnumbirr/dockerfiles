@@ -1,13 +1,11 @@
-FROM alpine:3.1
+FROM alpine:latest
 MAINTAINER Martin Simon <me@martinsimon.me>
 
 RUN \
     apk add --update \
         python \
-        curl
-
-RUN \
-    rm -rf /var/cache/apk/*
+        curl && \
+        rm -rf /var/cache/apk/*
 
 RUN \
     curl -SL 'https://bootstrap.pypa.io/get-pip.py' | python

@@ -1,4 +1,4 @@
-FROM alpine:3.1
+FROM alpine:latest
 MAINTAINER Martin Simon <me@martinsimon.me>
 
 RUN \
