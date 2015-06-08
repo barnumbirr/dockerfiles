@@ -6,6 +6,7 @@ This is a collection of **Dockerfiles** I use:
   * [Codiad](http://codiad.com/)
   * [Dokuwiki](https://www.dokuwiki.org/dokuwiki)
   * [flaskbb](http://flaskbb.org/)
+  * [gparted](http://gparted.org/)
   * [Hastebin Plus](https://github.com/MarvinMenzerath/HastebinPlus)
   * [ircd-hybrid](http://www.ircd-hybrid.org/)
   * [lynx](http://lynx.isc.org/)
